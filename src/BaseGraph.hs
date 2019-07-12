@@ -6,13 +6,11 @@ module BaseGraph (
 
     -- graph create
     createBaseGraph,
---     generateRandomBaseGraph,
 
     -- graph update
      addEdge,
      removeEdge,
      addVertex,
---     removeVertex,
 
     -- graph visualization
 --     drawGraph,
@@ -26,13 +24,9 @@ module BaseGraph (
     getPaths,
     findFirstNeighbors,
 
---     getDeg,
---
---     -- graph algorithms
+    -- graph algorithms
     depthFirst,
     getConnectedComponents
---     dfs,
---     bfs
 
 
 ) where
